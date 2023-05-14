@@ -1,0 +1,114 @@
+
+
+.Subdiv {
+    max-width: 800px;
+    margin: 0 auto;
+    /* margin-top: 2.2rem; */
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  }
+  
+   .Subdiv h1 {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    color: #fdfafa;
+  }
+  
+   .Subdiv label {
+    display: block;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #000;
+  }
+  
+  .Subdiv input,
+  .Subdiv textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+  }
+  
+  .Subdiv textarea {
+    height: 100px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+  }
+  
+  .Subdiv select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    background-color: #fff;
+  }
+  
+  .Subdiv .subm {
+    margin-top: 10px;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .Subdiv .project-documentation {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .Subdiv .project-documentation input {
+    margin-bottom: 10px;
+  }
+  
+  .Subdiv .project-documentation label {
+    margin-bottom: 1;
+    
+  }
+  
+  .Subdiv .project-documentation .file-input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    background-color: #fff;
+  }
+  
+  .Subdiv .project-documentation .file-preview {
+    width: 100px;
+    height: 100px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    overflow: hidden;
+  }
+  
+  .Subdiv .project-documentation .file-preview img {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .Subdiv .project-documentation .file-name {
+    display: block;
+    margin-top: 5px;
+    color: #000;
+  }
+  
+  .Subdiv .project-documentation .file-remove {
+    display: inline-block;
+    margin-left: 10px;
+    color: #000;
+  }
+  
+  .Subdiv .project-documentation .file-remove:hover {
+    color: #fff;
+    background-color: #000;
+  }
+  

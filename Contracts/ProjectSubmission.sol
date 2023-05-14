@@ -3,31 +3,26 @@
 pragma solidity ^0.8.0;
 contract ProjectSubmission {
 
-    // Events
     event ProjectSubmitted( 
         address indexed projectOwner, 
-        string projectName, 
+        string projectName,
         uint projectGoal, 
         uint projectDeadline 
         );
 
-    // Project Structure
     struct Project { 
         address owner; 
         string name; 
         uint goal; 
         uint deadline; }
 
-    // Variables
     address public owner; 
     mapping(string => Project) public projects; 
     mapping(string => uint) public projectGoals; 
     mapping(string => uint) public projectDeadlines;
 
-    // Constructor
     constructor() { owner = msg.sender; }
 
-    // Methods
     function submitProject( string memory projectName, 
         uint projectGoal, 
         uint projectDeadline ) public { 

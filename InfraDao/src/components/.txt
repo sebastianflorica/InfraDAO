@@ -1,0 +1,36 @@
+
+Make me a react page for an infrastructure DAO with a form that has the following elements:
+
+1. input field type=tex
+1.1Project Owner/Lead Developer -text input
+1.2Project short description -text input
+1.3project details - textbox (to support larger ammount of text)
+
+2. dropdown select
+2.1project category -dropdown with the following options{
+    Housing, Commercial, tranportation,
+    Network, Water & sanitation,
+    Telecommunications, Edecation, Public goods
+}
+
+2.2project status -dropdown with the following options{
+    Planning,
+    Started <20%,
+    In Progress <50%,
+    Advanced <70%
+}
+
+3. input field type=number
+3.1funding raise requred ($) -number input
+3.2total token to be created -number input
+3.3price per token -number input = auto populate by dividing funding raise requred ($) by total token to be created
+
+4. Upload
+4.1make a project documentation div that has the functionality to upload multiple files and documents
+
+5. submit
+5.1The element at the bottom should be a button that says submit
+
+6. put all elements ina card that should be placed in the center of the page
+
+and finally style it all with css

@@ -1,0 +1,239 @@
+/* Set box-sizing to border-box for all elements */
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Set a minimum height of 100vh for the entire page */
+  html, body {
+    min-height: 100vh;
+  }
+  
+  /* Add a background color to the body */
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Amatic SC', cursive, sans-serif;
+    background-color: #f7f7f7;
+  }
+  
+  /* Style the navigation bar */
+  nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
+    height: 70px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: end;
+    padding: 0 ;
+    z-index: 1;
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+  }
+  
+  /* Style the links in the navigation bar */
+  nav a {
+    
+    padding: 13px 10px;
+    text-decoration: none;
+    color: #070707;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 5px;
+    /* margin-left: 1rem; */
+  }
+
+  nav a:hover:not(:disabled){
+    color: #1899D6;
+  }
+
+  .launch{
+    position: relative;
+    top: -10px;
+    left: 10%;
+  }
+
+  .btn-primary1{
+    position: relative;
+    top: -10px;
+    left: 25%;
+  }
+
+  .btn-primary{
+    position: relative;
+    top: -10px;
+    left: 40%;
+  }
+
+ 
+  .inh1{
+    position: relative;
+    left: -14%;
+  }
+  
+  .inspan{
+    color: chartreuse;
+  }
+
+  /* Style the header */
+  .App-header {
+
+    height: 98%;
+    min-height: ;
+    text-align: center;
+    color: whitesmoke;
+    z-index: 9999;
+    /* padding: 5rem 2rem 2rem; */
+    background-color: #f8f6f6;
+    /* box-shadow: rgba(5, 131, 72, 0.4) 0px 0px 0px 2px, rgba(5, 131, 72, 0.4) 0px 4px 6px -1px, rgba(5, 131, 72, 0.4) 0px 1px 0px inset; */
+  }
+
+  .App-header h1 {
+    margin: 0;
+    font-size: 36px;
+    margin-top: -25%;
+    color: #000000;
+  }
+  
+  .App-header p {
+    font-size: 18px;
+    margin: 10px 0 0;
+    color: #070707;
+  }
+  
+  
+ .homimg{
+    margin-top: 2.5rem;
+    width: 100%;
+    min-width: 100px;
+    height: 100%;
+    /* object-fit: contain; */
+    z-index: 9999;
+    opacity: 35%;
+ }
+
+ .homimg2{
+  margin-top: 16.5rem;
+  width: 100%;
+  min-width: 100px;
+  height: 10%;
+  max-height: 700px;
+  /* object-fit: contain; */
+  z-index: 9999;
+  opacity: 42%;
+}
+
+  /* Style the sections */
+  .section {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 2rem;
+    background-color: #eef2f3;
+    font-family: 'Amatic SC', cursive, sans-serif;
+    text-align: center;
+    box-shadow: rgba(255, 255, 255, 0.4) 0px 0px 0px 2px, rgba(255, 255, 255, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+    margin-top: 70px; /* Add some margin to push the sections below the navigation bar */
+  }
+
+  /* .sec1{
+    height: 100%;
+    min-height: 900px;
+    background-color: #070707;
+  } */
+  
+  /* Style the heading in the sections */
+  .section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+  }
+  
+  /* Style the paragraph in the sections */
+  .section p {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+  }
+  
+  /* Style the image container */
+  .imgdiv{
+    position: relative;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(10, 10, 10, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    width: 700px;
+    height: 400px;
+    background-color: #f8f5f5;
+    margin: 2rem auto;
+  }
+  
+  /* Style the about container */
+  .abtdiv{
+    position: relative;
+    left: -400px;
+    top: -8px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    width: 380px;
+    height: 450px;
+    background-color: #f8f5f5;
+    margin: 2rem auto;
+    border-radius: 16px;
+  }
+
+section .h11{
+    position: relative;
+    left: 70%;
+    top: 90px;
+}
+
+section .h41{
+    position: relative;
+    left: 70%;
+    top: 100px;
+}
+
+.sec1 {
+  background-color: #f0f0f0;
+  /* padding: 50px; */
+  text-align: center;
+  z-index: 9999;
+}
+
+.statistics {
+  position: relative;
+  top: -380px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  margin-left: 70%;
+}
+
+.statistics p {
+  margin: 0 20px;
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: #0a0a0a;
+}
+
+
+.h11 {
+  color: rgb(12, 12, 12);
+  font-size: 2rem;
+  margin-bottom: 42rem;
+  margin-left: -30.70%;
+  
+}
+
+.h41 {
+  color: white;
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.abt{
+  margin-top: -38rem;
+  background-color: transparent;
+  width: 350px;
+  color: #000000;
+  font-size: 1.2rem;
+  margin-left: 70%;
+}

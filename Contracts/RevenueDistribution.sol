@@ -3,16 +3,12 @@ pragma solidity ^0.8.0;
 
 contract RevenueDistribution {
 
-  // Events
-
   event RevenueDistributed(
     address indexed projectOwner,
     string projectName,
     uint revenue,
     uint numTokensBurned
   );
-
-  // Project Structure
 
     struct Project {
     address owner;
@@ -23,8 +19,6 @@ contract RevenueDistribution {
     uint revenue;
     }
 
-  // Variables
-
   address public owner;
   mapping(string => Project) public projects;
   mapping(string => uint) public projectGoals;
@@ -32,13 +26,9 @@ contract RevenueDistribution {
   mapping(string => uint) public projectTokens;
   mapping(string => uint) public projectRevenue;
 
-  // Constructor
-
   constructor() {
     owner = msg.sender;
   }
-
-  // Methods
 
   function distributeRevenue(
     string memory projectName,

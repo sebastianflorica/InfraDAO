@@ -4,16 +4,12 @@ pragma solidity ^0.8.0;
 
 contract Tokenization {
 
-    // Events
-
     event TokenCreated(
         address indexed projectOwner,
         string projectName,
         uint amount,
         uint price
     );
-
-  // Project Structure
 
     struct Project {
     address owner;
@@ -24,8 +20,6 @@ contract Tokenization {
     uint price;
     }
 
-    // Variables
-
     address public owner;
     mapping(string => Project) public projects;
     mapping(string => uint) public projectGoals;
@@ -33,13 +27,9 @@ contract Tokenization {
     mapping(string => uint) public projectTokens;
     mapping(string => uint) public projectPrice;
 
-    // Constructor
-
     constructor() {
         owner = msg.sender;
     }
-
-    // Methods
 
     function createTokens(
         string memory projectName,

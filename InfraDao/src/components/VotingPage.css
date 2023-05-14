@@ -1,0 +1,77 @@
+.voting-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2rem;
+    padding: 2rem;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    text-align: center;
+
+    /* margin-top: 10%; */
+    
+  }
+  
+  .voting-card h1 {
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  
+  .project-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .project {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: 1rem;
+    padding: 1rem;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  .project:hover {
+    background-color: #f8f8f8;
+  }
+  
+  .selected {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  .selected:hover {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  .project-name {
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  .vote-button {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 8px;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+  }
+  
+  .vote-button:hover {
+    background-color: #0062cc;
+  }
+  
+   
